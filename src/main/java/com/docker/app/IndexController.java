@@ -12,4 +12,9 @@ public class IndexController {
 	}
 	
 	
+	@GetMapping("/home")
+	public String home() {
+		return "Hello from docker ";
+	}
+	
 }
